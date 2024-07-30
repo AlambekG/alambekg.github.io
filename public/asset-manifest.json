@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfweb/static/css/main.2aab54b1.css",
-    "main.js": "/portfweb/static/js/main.b98dce5b.js",
+    "main.js": "/portfweb/static/js/main.28c4c13f.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfweb/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfweb/static/js/787.1ed0c42c.chunk.js",
     "static/media/popVis.png": "/portfweb/static/media/popVis.758c754c05f8158f6f23.png",
@@ -17,12 +17,12 @@
     "static/media/pre.svg": "/portfweb/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfweb/index.html",
     "main.2aab54b1.css.map": "/portfweb/static/css/main.2aab54b1.css.map",
-    "main.b98dce5b.js.map": "/portfweb/static/js/main.b98dce5b.js.map",
+    "main.28c4c13f.js.map": "/portfweb/static/js/main.28c4c13f.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfweb/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfweb/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2aab54b1.css",
-    "static/js/main.b98dce5b.js"
+    "static/js/main.28c4c13f.js"
   ]
 }
