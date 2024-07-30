@@ -33,8 +33,15 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./public
-          destination: ./public/index.html
+          node-version: '16'
+      - name: Install dependencies
+        run: npm install
+      - name: Build the React app
+        run: npm run build
+      - name: Move build output to public
+        run: |
+          rm -rf public/*
+          mv build/* public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
