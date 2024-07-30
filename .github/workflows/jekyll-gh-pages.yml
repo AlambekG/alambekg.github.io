@@ -34,7 +34,7 @@ jobs:
 
       - name: Move build output to public
         run: |
-          rm -rf public/*
+          rm -rf public/static
           mv build/* public/
 
       - name: Upload artifact
