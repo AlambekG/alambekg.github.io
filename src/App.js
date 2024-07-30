@@ -29,20 +29,20 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="./portfweb/" element={<Home />} />
-          <Route path="./portfweb/project" element={<Projects />} />
-          <Route path="./portfweb/about" element={<About />} />
-          <Route path="./portfweb/resume" element={<Resume />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <Router basename="/portfweb">
+    <Preloader load={load} />
+    <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <Navbar />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+      <Footer />
+    </div>
+  </Router>
   );
 }
 
