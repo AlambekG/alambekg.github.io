@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60cf1d76.css",
+    "main.js": "/static/js/main.5201c91b.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/popVis.png": "/static/media/popVis.758c754c05f8158f6f23.png",
+    "static/media/umm.png": "/static/media/umm.50ecd60527a51d4247d8.png",
+    "static/media/livebr.png": "/static/media/livebr.eb221f9d9be9ce38fef0.png",
+    "static/media/spp.png": "/static/media/spp.5203d943c5ac078a5fcc.png",
+    "static/media/Alambek_CV2407.pdf": "/static/media/Alambek_CV2407.bef999869f876d5b82b0.pdf",
+    "static/media/me.jpg": "/static/media/me.25db52a383d03870057e.jpg",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.60cf1d76.css.map": "/static/css/main.60cf1d76.css.map",
+    "main.5201c91b.js.map": "/static/js/main.5201c91b.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60cf1d76.css",
+    "static/js/main.5201c91b.js"
+  ]
+}
