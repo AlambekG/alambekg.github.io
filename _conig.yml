@@ -1,2 +1,2 @@
-source: public
-destination: public/index.html
+source: docs
+destination: docs/index.html
