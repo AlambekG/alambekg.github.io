@@ -180,9 +180,6 @@ button:focus {
   position: relative;
   margin-left: 20px;
 }
-a {
-  pointer-events: auto;
-}
 
 .navbar-nav .nav-item a {
   font-weight: 400;
@@ -266,7 +263,6 @@ a {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
-  user-select: text;
 }
 
 .home-content {
@@ -351,6 +347,7 @@ a {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
+  z-index: 3;
 }
 
 .home-about-social-links {
@@ -359,6 +356,7 @@ a {
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
+  z-index: 5;
 }
 
 .home-social-icons {
