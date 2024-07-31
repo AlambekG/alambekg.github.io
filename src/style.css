@@ -180,6 +180,9 @@ button:focus {
   position: relative;
   margin-left: 20px;
 }
+a {
+  pointer-events: auto;
+}
 
 .navbar-nav .nav-item a {
   font-weight: 400;
@@ -263,6 +266,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  user-select: text;
 }
 
 .home-content {
