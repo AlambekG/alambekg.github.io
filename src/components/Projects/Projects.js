@@ -8,6 +8,8 @@ import LiveBright from "../../Assets/Projects/livebr.png";
 import uMatter from "../../Assets/Projects/umm.png";
 import SpaceShooter from "../../Assets/Projects/spp.png";
 import infoVis from "../../Assets/Projects/popVis.png";
+import MazeSolver from "../../Assets/Projects/Astar.png"
+import PantryTracker from "../../Assets/Projects/pantry.png"
 
  
 function Projects() {
@@ -23,6 +25,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={PantryTracker}
+              isBlog={false}
+              title="Pantry Tracker"
+              description="This is a pantry inventory app with camera integration for capturing and tracking food items, 
+                          hosted on Vercel with Firebase backend for real-time data management."
+              ghLink="https://github.com/AlambekG/PantryTracker"
+            />
+          </Col>
+
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={LiveBright}
@@ -62,6 +76,20 @@ function Projects() {
               ghLink="https://github.com/AlambekG/Visualization_projects"            
             />
           </Col>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={MazeSolver}
+              isBlog={false}
+              title="Maze Solver"
+              description=" Maze Solver is an efficient and user-friendly application that tackles the challenge of finding the shortest path through complex mazes. 
+              Utilizing a blend of Java and C++, it implements the three most popular graph search algorithms: 
+              Depth-First Search (DFS), Breadth-First Search (BFS), and A* Search, demonstrating their applications and effectiveness in pathfinding contexts"
+              ghLink="https://github.com/AlambekG/mazeSolver"
+              
+            />
+          </Col>
+
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={SpaceShooter}

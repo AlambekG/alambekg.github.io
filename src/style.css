@@ -19,6 +19,16 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.large {
+  font-size: 19px;
+}
+.medium {
+  font-size: 17px;
+}
+.aboutDiv {
+  margin-bottom: 7px;
+}
+
 button:focus {
   box-shadow: none !important;
 }

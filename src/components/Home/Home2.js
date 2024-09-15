@@ -17,19 +17,19 @@ function Home2() {
       <br />
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Who <span className="purple"> I am </span>
-            </h1>
+           <br/>
+           <br/>
+           <br/>
+           <br/>
         <p className="home-about-body">
           {/* <p style={{ textAlign: "justify" }}> */}
             Hi there, I am <span className="purple"> Alambek Gulamidinov. </span>
-            I'm a fresh graduate of UNIST (South Korea) 
             <br />
-            I am motivated by the prospect of innovation, excellence, and creating solutions that matter.
+            New Grad Software Engineer from UNIST
             <br/>
-            I'm seeking opportunities that will allow me to leverage my technical and leadership skills.
+            I love to code and develop solutions that matter
             <br/>
-            Connect with me to explore potential collaborations or to share insights!
+            Connect with me to share insights!
             <br />
           </p>
           </Col>

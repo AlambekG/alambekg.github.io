@@ -8,38 +8,45 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="home-about-body2">
-              Programming since 7th grade. 
-              <br /> I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript, Python. </b>
-              </i>
+            <div>
+              Education:
               <br />
-              My Interest's are building &nbsp;
-              <i>
-                <b className="purple">Software Solutions </b> <br/>
-                and solving &nbsp;
-                <b className="purple">
-                  complex tech problems.
-                </b>
-              </i>
-              <br />
-              Whenever possible, I apply my knowledge on Algorithms and Data Structures 
-              to optimize applications
+              <div className="aboutDiv">
+              <span className="large"> Ulsan National Institute of Science and Technology (UNIST) </span>
+              <br/>
+              <b className="purple medium"> BS in Computer Science and Engineering (2019-2024)</b> 
+              </div>
+            </div>
+            <br />
+            <div>
+              Experience:
+              <div className="aboutDiv"> 
+                <span className="large"> Software Engineer (Seoul, 2024 March - Present) </span>
+                <br/>
+                <span className="medium"> <a href="https://www.nepla.net/" className="purple">  Nepla Co. </a> 
+                , Early stage legal-tech startup </span>
+              </div>
+              <div className="aboutDiv"> 
+                <span className="large"> R&D Software Engineer Intern (Ulsan, 2023 July - 2023 September) </span>
+                <br/>
+                <span className="medium"> <a href="https://www.ibs.re.kr/eng.do" className="purple"> Institute for Basic Science </a> 
+                , basic science research institute </span>
+              </div>
+              <div className="aboutDiv"> 
+                <span className="large"> R&D Software Engineer Intern (Ulsan, 2023 March - 2023 June) </span>
+                <br/>
+                <span className="medium"> <a href="https://pal.unist.ac.kr/" className="purple"> Pal lab </a> 
+                , Research laboratory at UNIST</span>
+              </div>
+              <div className="aboutDiv"> 
+                <span className="large"> Software Developer Intern (Seoul, 2022 December - 2023 February)</span>
+                <br/>
+                <span className="medium"> <a href="https://o-n2.com/" className="purple"> OnSquare </a> 
+                , Tech startup with product downloaded 30+ million times on Google Play.</span>
+              </div>
+            </div>
             </p>
             <br />
-            Some other activities that I love to do
-
-          <ul>
-            <li className="about-activity">
-              Playing Football
-            </li>
-            <li className="about-activity">
-              Exploring new things
-            </li>
-            <li className="about-activity">
-               Travelling
-            </li>
-          </ul>
         </blockquote>
       </Card.Body>
     </Card>

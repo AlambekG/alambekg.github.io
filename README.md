@@ -1,7 +1,7 @@
 
 <h2 align="center">
   Portfolio Website <br/>
-  <a href="https://" target="_blank"> Alambek Gulamidinov </a>
+  <a href="https://alambekg.github.io/" target="_blank"> Alambek Gulamidinov </a>
 </h2>
 <div align="center">
   <!-- <img width="1457" alt="readme-img" src="https://github.com/user-attachments/assets/"> -->
